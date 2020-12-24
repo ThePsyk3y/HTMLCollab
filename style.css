@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  box-shadow: 0 0 10px 0 #808080ce;
+  padding: 5px;
+  overflow: hidden;
+}
+
+#title-nav {
+  font-family: Ubuntu;
+}
+#title-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#somo-img {
+  /* position: absolute; */
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  /* padding: 10px; */
+  margin: 10px;
+}
+
+#yeet {
+  font-size: 20px;
+  margin: 10px;
+  padding: 5px;
+}
